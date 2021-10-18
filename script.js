@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if(localStorage.getItem("count")){
         count.innerHTML = localStorage.getItem("count");
+        console.log(count);
     }
 
     document.querySelector(".countUpBtn").addEventListener("click", function(){
